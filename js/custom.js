@@ -1,11 +1,3 @@
-/*
-
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 1.0
-Design and Developed by: iqonicthemes.in
-
-*/
 /*================================================
 [  Table of contents  ]
 ================================================
@@ -18,7 +10,7 @@ Design and Developed by: iqonicthemes.in
 ::Img Skrollr
 ::Magnific Popup
 ::countdown
-::owl-carousel 
+::owl-carousel
 ::Progress Bar
 ::widget
 ::counter
@@ -184,7 +176,7 @@ function countdown1() {
 }
 
 /*************************
-owl-carousel 
+owl-carousel
 *************************/
 function owlcarousel() {
     $(".owl-carousel").each(function() {
@@ -381,7 +373,7 @@ function wowanimation() {
 }
 
 /*************************
-All function are called here 
+All function are called here
 *************************/
 $(document).ready(function() {
     backtotop(),

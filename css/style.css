@@ -1,11 +1,6 @@
 /*
 
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 1.0
-Design and Developed by: iqonicthemes.in
-
-NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
+Design and Developed by: Shaik Mohammad Owaiz
 
 */
 
@@ -17,8 +12,8 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ::Loader
 ::Buttons
 ::Div Shadow
-::Page Section Margin Padding 
-::Text Weight 
+::Page Section Margin Padding
+::Text Weight
 ::Text color
 ::Font size
 ::Background color
@@ -57,12 +52,12 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
                                General
 -----------------------------------------------------------------------*/
 
-body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #666666; }
+body { font-family: 'Poppins', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #666666; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #333333; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #4ac4f3; text-decoration: none !important; }
 a, .button, input { outline: medium none !important; color: #4ac4f3; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; font-weight: normal; color: #333333; margin-top: 0px; margin-bottom: 0px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; font-weight: normal; color: #5f6c8f; margin-top: 0px; margin-bottom: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 40px; font-style: normal; line-height: 46px; }
 h2 { font-size: 36px; font-style: normal; line-height: 44px; }
@@ -131,18 +126,18 @@ blockquote { border-left: 5px solid #4ac4f3; font-size: 16px; }
 .iq-box-shadow { position: relative; z-index: 9; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
 
 /*---------------------------------------------------------------------
-                    Page Section Margin Padding 
+                    Page Section Margin Padding
 ---------------------------------------------------------------------*/
 
 /*----------------
-Section padding 
+Section padding
 ----------------*/
 .overview-block-ptb { padding: 100px 0; }
 .overview-block-pt { padding: 100px 0 0; }
 .overview-block-pb { padding: 0 0 100px; }
 
 /*----------------
-Padding All 
+Padding All
 ----------------*/
 .iq-pall { padding: 0px !important; }
 .iq-pall-10 { padding: 10px !important; }
@@ -159,7 +154,7 @@ Padding All
 .iq-pall-100 { padding: 100px !important; }
 
 /*----------------
-Padding Top and Bottom 
+Padding Top and Bottom
 ----------------*/
 .iq-ptb-0 { padding: 0 !important; }
 .iq-ptb-10 { padding: 10px 0 !important; }
@@ -176,7 +171,7 @@ Padding Top and Bottom
 .iq-ptb-100 { padding: 100px 0 !important; }
 
 /*----------------
-Padding Left and right 
+Padding Left and right
 ----------------*/
 .iq-plr-0 { padding: 0 !important; }
 .iq-plr-10 { padding: 0 10px !important; }
@@ -193,7 +188,7 @@ Padding Left and right
 .iq-plr-100 { padding: 0 100px !important; }
 
 /*----------------
-Padding top 
+Padding top
 ----------------*/
 .iq-pt-0 { padding-top: 0px !important; }
 .iq-pt-10 { padding-top: 10px !important; }
@@ -210,7 +205,7 @@ Padding top
 .iq-pt-100 { padding-top: 100px !important; }
 
 /*----------------
-Padding Bottom 
+Padding Bottom
 ----------------*/
 .iq-pb-0 { padding-bottom: 0px !important; }
 .iq-pb-10 { padding-bottom: 10px !important; }
@@ -227,7 +222,7 @@ Padding Bottom
 .iq-pb-100 { padding-bottom: 100px !important; }
 
 /*----------------
-Padding Left 
+Padding Left
 ----------------*/
 .iq-pl-0 { padding-left: 0 !important; }
 .iq-pl-10 { padding-left: 10px !important; }
@@ -244,7 +239,7 @@ Padding Left
 .iq-pl-100 { padding-left: 100px !important; }
 
 /*----------------
-Padding Right 
+Padding Right
 ----------------*/
 .iq-pr-0 { padding-right: 0px !important; }
 .iq-pr-10 { padding-right: 10px !important; }
@@ -261,7 +256,7 @@ Padding Right
 .iq-pr-100 { padding-right: 100px !important; }
 
 /*----------------
-Margin All 
+Margin All
 ----------------*/
 .iq-mall-0 { margin: 0 !important; }
 .iq-mall-10 { margin: 10px !important; }
@@ -278,7 +273,7 @@ Margin All
 .iq-mall-100 { margin: 100px !important; }
 
 /*----------------
-Margin Top and Bottom 
+Margin Top and Bottom
 ----------------*/
 .iq-mtb-0 { margin: 0 !important; }
 .iq-mtb-10 { margin: 10px 0 !important; }
@@ -295,7 +290,7 @@ Margin Top and Bottom
 .iq-mtb-100 { margin: 100px 0 !important; }
 
 /*----------------
-Margin Left and Right 
+Margin Left and Right
 ----------------*/
 .iq-mlr-0 { margin: 0 !important; }
 .iq-mlr-10 { margin: 0 10px !important; }
@@ -312,7 +307,7 @@ Margin Left and Right
 .iq-mlr-100 { margin: 0 100px !important; }
 
 /*----------------
-Margin Top 
+Margin Top
 ----------------*/
 .iq-mt-0 { margin-top: 0px !important; }
 .iq-mt-10 { margin-top: 10px !important; }
@@ -329,7 +324,7 @@ Margin Top
 .iq-mt-100 { margin-top: 100px !important; }
 
 /*----------------
-Margin Bottom 
+Margin Bottom
 ----------------*/
 .iq-mb-0 { margin-bottom: 0px !important; }
 .iq-mb-10 { margin-bottom: 10px !important; }
@@ -346,7 +341,7 @@ Margin Bottom
 .iq-mb-100 { margin-bottom: 100px !important; }
 
 /*----------------
-Margin Left 
+Margin Left
 ----------------*/
 .iq-ml-0 { margin-left: 0px !important; }
 .iq-ml-10 { margin-left: 10px !important; }
@@ -380,7 +375,7 @@ Margin Right
 .iq-mr-100 { margin-right: 100px !important; }
 
 /*---------------------------------------------------------------------
-                            Text Weight 
+                            Text Weight
 -----------------------------------------------------------------------*/
 .iq-tw-1 { font-weight: 100; }
 .iq-tw-2 { font-weight: 200; }
@@ -393,7 +388,7 @@ Margin Right
 .iq-tw-9 { font-weight: 900; }
 
 /*---------------------------------------------------------------------
-                            Text Color 
+                            Text Color
 -----------------------------------------------------------------------*/
 .iq-font-blue { color: #4ac4f3; }
 .iq-font-white { color: #ffffff; }
@@ -401,13 +396,13 @@ Margin Right
 .iq-font-light { color: #666666; }
 
 /*---------------------------------------------------------------------
-                            Font Size 
+                            Font Size
 -----------------------------------------------------------------------*/
 .iq-font-15 { font-size: 15px; }
 .iq-font-30 { font-size: 30px; }
 
 /*---------------------------------------------------------------------
-                          Background Color 
+                          Background Color
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
 .grey-bg { background: #f5f7fb; }
@@ -420,7 +415,7 @@ Margin Right
 .iq-bg-fixed { background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: center center; background-repeat: no-repeat; background-size: cover !important; position: relative; z-index: 0; background-attachment: fixed !important; }
 
 /*---------------------------------------------------------------------
-                       Background Gradient 
+                       Background Gradient
 ---------------------------------------------------------------------*/
 .iq-over-blue-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.8); }
 .iq-over-blue-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.9); }
@@ -470,7 +465,7 @@ Margin Right
                             Header
 -----------------------------------------------------------------------*/
 header { position: fixed; display: inline-block; width: 100%; top: 0; left: 0; z-index: 999; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-header .navbar-header .navbar-brand img { height: 60px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+header .navbar-header .navbar-brand img { height: 50px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar-default { background: #fff; border: none; border-radius: 0px; min-height: inherit; margin: 0; padding: 20px 0; }
 header .navbar-default .navbar-brand { height: inherit; padding: 0; }
 header .navbar-nav { margin-top: 7px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
@@ -483,7 +478,7 @@ header .nav > li.active > a::before, header .nav > li:hover > a::before, header 
 header .button { margin-top: 0; margin-left: 60px; }
 
 /* Header sticky */
-header .menu-sticky { -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); background: rgba(255, 255, 255, 0.9); }
+header .menu-sticky { -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); background: rgba(255, 255, 255, 1); }
 header .menu-sticky .navbar-header .navbar-brand img { height: 45px; }
 header .menu-sticky.navbar-default { padding: 13px 0; }
 header .menu-sticky .navbar-nav { margin-top: 0; }
