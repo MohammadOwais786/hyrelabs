@@ -47,6 +47,10 @@
 
     <!-- custom style -->
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+
+
+
 
 </head>
 
@@ -196,14 +200,21 @@
         <!-- Who is Sofbox ? -->
 
         <section id="software-features" class="overview-block-ptb how-works">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="heading-title">
+                      <h3 class="title iq-tw-6">Our Features</h3>
+                  </div>
+              </div>
+          </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="iq-tw-5 iq-mb-25">Resume Parsing</h2>
+                        <h3 class="iq-tw-5 iq-mb-25">Resume Parsing</h3>
                         <p class="iq-font-15">Our machine learning and NLP algorithms extract structured information from free-form CVs to facilitate accurate matching with job requirements.</p>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/drive/resume.png" alt="drive01">
+                    <div class="hidden-xs col-md-6">
+                        <img src="images/drive/resume.png"  data-aos="fade-left" data-aos-delay="300" alt="drive01">
                     </div>
                 </div>
             </div>
@@ -228,11 +239,11 @@
 
             <div class="container">
                 <div class="row">
-                  <div class="col-md-6">
-                      <img src="images/drive/smr.png" alt="drive01">
+                  <div class=" hidden-xs col-md-6">
+                      <img id="#smr" data-aos="fade-right" data-aos-delay="300" src="images/drive/smr.png" alt="drive01">
                   </div>
                     <div class="col-md-6">
-                        <h2 class="iq-tw-5 iq-mb-25">Scoring, Matching & Ranking</h2>
+                        <h3 class="iq-tw-5 iq-mb-25">Scoring, Matching & Ranking</h3>
                         <p class="iq-font-15">Our machine learning and NLP algorithms extract structured information from free-form CVs to facilitate accurate matching with job requirements.</p>
                     </div>
 
@@ -254,12 +265,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="iq-tw-5 iq-mb-25">In-depth Analytics</h1>
+                        <h3 class="iq-tw-5 iq-mb-25">In-depth Analytics</h3>
                         <p class="iq-font-15">Personalised dashboard provides detailed insights on individual CVs as well as overall batch of CVs along with cohort analysis. Advanced comparison metrics with an option of customised filters.</p>
                         <h6 class="iq-tw-6 iq-mt-25">Discover our best ever services.</h6>
                     </div>
-                    <div class="col-md-6">
-                        <img class="iq-works-img" src="images/drive/01.png" alt="drive01">
+                    <div class="col-md-6 hidden-xs">
+                        <img class="aos-item iq-works-img" data-aos="fade-left" data-aos-delay="300" src="images/drive/01.png" alt="drive01">
                     </div>
                 </div>
             </div>
@@ -490,6 +501,13 @@
 
     <!-- Custom -->
     <script type="text/javascript" src="js/custom.js"></script>
+
+    <!-- Scroll-animations -->
+    <script type="text/javascript" src="js/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 
