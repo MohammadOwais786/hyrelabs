@@ -420,6 +420,7 @@ Margin Right
 .iq-over-blue-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.8); }
 .iq-over-blue-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(74, 196, 243, 0.9); }
 .iq-over-black-80:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.8); }
+.iq-over-black-40:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.4); }
 .iq-over-black-90:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; background: rgba(0, 0, 0, 0.9); }
 [class*='iq-over-']:before { z-index: 0; }
 
@@ -875,3 +876,17 @@ header .menu-sticky .button { margin-top: 0px; }
 #countdown li span { font-size: 50px; font-weight: 800; line-height: 80px; margin: 0 30px; }
 #countdown li.seperator { font-size: 50px; line-height: 40px; vertical-align: top; margin-top: 15px; }
 #countdown li p { color: #a7abb1; font-size: 20px; }
+
+/* svg arrow animations*/
+.path {
+  animation: dash 50s linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
