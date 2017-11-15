@@ -879,7 +879,7 @@ header .menu-sticky .button { margin-top: 0px; }
 
 /* svg arrow animations*/
 .path {
-  animation: dash 50s linear;
+  animation: dash 65s linear;
   animation-iteration-count: infinite;
   animation-direction: reverse;
 
@@ -889,4 +889,39 @@ header .menu-sticky .button { margin-top: 0px; }
   to {
     stroke-dashoffset: 1000;
   }
+}
+
+
+#wheel {
+		-webkit-animation: rotation 5s infinite linear;
+     -webkit-transform-origin: center;
+
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+#floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /*margin-left: 30px;*/
+    /*margin-top: 5px;*/
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }
+}
+#step3
+{
+  margin-left: 35px;
 }
