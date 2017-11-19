@@ -961,12 +961,12 @@ header .menu-sticky .button { margin-top: 0px; }
 		}
 }
 #blinker {
-  animation: blink-anim 1s ease 0s infinite alternate;
+  animation: blink-anim 0.7s ease 0s infinite alternate;
 }
 
 @keyframes blink-anim {
   from { opacity: 1; }
-  to { opacity: 0.3; }
+  to { opacity: 0; }
 }
 #search {
   animation: search-move 8s ease-in-out forwards infinite;
