@@ -925,3 +925,66 @@ header .menu-sticky .button { margin-top: 0px; }
 {
   margin-left: 35px;
 }
+
+.floatcv {
+    animation-name: floatcv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /*margin-left: 30px;*/
+    /*margin-top: 5px;*/
+}
+
+@keyframes floatcv {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }
+}
+
+#bigwheel {
+		-webkit-animation: rotation 30s infinite linear;
+     -webkit-transform-origin: center;
+
+}
+#smallwheel {
+		-webkit-animation: rotation 20s infinite linear;
+     -webkit-transform-origin: center;
+
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+#blinker {
+  animation: blink-anim 1s ease 0s infinite alternate;
+}
+
+@keyframes blink-anim {
+  from { opacity: 1; }
+  to { opacity: 0.3; }
+}
+#search {
+  animation: search-move 8s ease-in-out forwards infinite;
+}
+@-webkit-keyframes search-move {
+  0%, 7% {
+    transform: translate(0px, 0px);
+  }
+  34%, 41% {
+    transform: translate(140px, -10px);
+  }
+  63%, 71% {
+    transform: translate(0px, 105px);
+  }
+  78%, 85%{
+    transform: translate(140px, 105px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
