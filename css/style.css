@@ -979,10 +979,10 @@ header .menu-sticky .button { margin-top: 0px; }
     transform: translate(140px, -10px);
   }
   63%, 71% {
-    transform: translate(0px, 105px);
+    transform: translate(0px, 100px);
   }
   78%, 85%{
-    transform: translate(140px, 105px);
+    transform: translate(140px, 100px);
   }
   100% {
     transform: translate(0px, 0px);
